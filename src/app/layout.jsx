@@ -1,0 +1,26 @@
+
+import RootLayout from "@/components/RootLayout";
+import "./globals.css";
+export const metadata = {
+      title: {
+            template: "portfolio",
+            default: "Nirjhar sarkar Portfolio",
+      },
+};
+
+export default function Layout({ children }) {
+      return (
+            <html
+                  lang="en"
+                  className="h-full bg-neutral-950 text-base antialiased text-neutral-100"
+            >
+                  <body className="flex min-h-full flex-col">
+
+                        <RootLayout>
+                              {children}
+                              {/* <Footer /> */}
+                        </RootLayout>
+                  </body>
+            </html>
+      );
+}
