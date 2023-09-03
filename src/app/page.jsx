@@ -8,7 +8,7 @@ import Services from "@/components/Services";
 import imageLaptop from "@/images/laptop.jpg";
 import StylizedImage from "@/components/StylizedImage";
 import Testimonials from "@/components/Testimonials";
-import logoPhobiaDark from "@/images/clients/phobia/logo-dark.svg";
+
 import Lenis from '@studio-freight/lenis'
 
 export default function Home() {
