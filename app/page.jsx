@@ -1,15 +1,15 @@
 "use client";
-import { useEffect } from "react";
-import Clients from "@/components/Clients";
 import ContactSection from "@/components/ContactSection";
 import Container from "@/components/Container";
 import FadeIn from "@/components/FadeIn";
 import Services from "@/components/Services";
-import imageLaptop from "@/images/laptop.jpg";
 import StylizedImage from "@/components/StylizedImage";
 import Testimonials from "@/components/Testimonials";
+import imageLaptop from "@/images/laptop.jpg";
+import { useEffect } from "react";
 
-import Lenis from '@studio-freight/lenis'
+import Skills from "@/components/Skills";
+import Lenis from '@studio-freight/lenis';
 
 export default function Home() {
       useEffect(() => {
@@ -22,8 +22,8 @@ export default function Home() {
             requestAnimationFrame(raf)
       }, [])
       return (
-            <main className="text-black">
-                  <Container className="mt-24 sm:mt-32">
+            <Container className="text-black">
+                  <div className="mt-24 sm:mt-32">
                         <FadeIn className="w-full flex flex-col sm:flex-col md:flex-row lg:flex-row items-center justify-evenly">
                               <div>
                                     <div className="font-display text-3xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-6xl">
@@ -39,8 +39,8 @@ export default function Home() {
                                     className="justify-center w-full"
                               />
                         </FadeIn>
-                  </Container>
-                  <Clients />
+                  </div>
+                  <Skills />
                   <Testimonials
                         className="mt-24 sm:mt-32 lg:mt-40"
                         client={{ name: "Nirjhar Sarkar"}}
@@ -51,7 +51,7 @@ export default function Home() {
                   </Testimonials>
                   <Services />
                   <ContactSection />
-            </main>
+            </Container>
       );
 }
 

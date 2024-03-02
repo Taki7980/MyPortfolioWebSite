@@ -1,5 +1,5 @@
-import Link from "next/link";
 import clsx from "clsx";
+import Link from "next/link";
 
 const Button = ({ invert, href, className, children, ...props }) => {
   className = clsx(

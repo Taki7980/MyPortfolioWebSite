@@ -1,32 +1,45 @@
+import Anguler from "@/images/skills/angular-icon-1.svg";
+import Astro from "@/images/skills/astro.svg";
+import Nextjs from "@/images/skills/nextjs-13.svg";
+import Reactjs from "@/images/skills/react-2.svg";
+import { default as Vite, default as Vuejs } from "@/images/skills/vitejs.svg";
 import Image from "next/image";
-import Nextjs from "@/images/skills/nextjs-13.svg"
-import Reactjs from "@/images/skills/react-2.svg"
-import Vuejs from "@/images/skills/vitejs.svg"
-import Anguler from "@/images/skills/angular-icon-1.svg"
-import Astro from "@/images/skills/astro.svg"
-import Vite from "@/images/skills/vitejs.svg"
 
 
-import Nodejs from "@/images/skills/nodejs.svg"
-import Express from "@/images/skills/express-109.svg"
+import Express from "@/images/skills/express-109.svg";
+import Nodejs from "@/images/skills/nodejs.svg";
 
-import Sanity from "@/images/skills/sanity.svg"
-import Stripe from "@/images/skills/stripe-4.svg"
+import Sanity from "@/images/skills/sanity.svg";
+import Stripe from "@/images/skills/stripe-4.svg";
 
-import Tailwindcss from "@/images/skills/tailwind-css-2.svg"
-import Bootstrap from "@/images/skills/bootstrap-5.svg"
-import Framer from "@/images/skills/framer-motion.svg"
+import Bootstrap from "@/images/skills/bootstrap-5.svg";
+import Framer from "@/images/skills/framer-motion.svg";
+import Tailwindcss from "@/images/skills/tailwind-css-2.svg";
 
 
-import Jquery from "@/images/skills/jquery.svg"
-import Prisma from "@/images/skills/prisma-2.svg"
+import Jquery from "@/images/skills/jquery.svg";
+import Prisma from "@/images/skills/prisma-2.svg";
 
-import Github from "@/images/skills/github-2.svg"
-import Shadcn from "@/images/skills/shadcn.svg"
-import Python from "@/images/skills/python-3.svg"
+import Docker from "@/images/skills/docker.svg";
+import Firebase from "@/images/skills/firebase.svg";
+import Github from "@/images/skills/github-2.svg";
+import GraphQl from "@/images/skills/graphql.svg";
+import MongoDb from "@/images/skills/mongodb.svg";
+import MySql from "@/images/skills/mysql.svg";
+import Planetscale from "@/images/skills/planetscale.svg";
+import Pnpm from "@/images/skills/pnpm.svg";
+import Python from "@/images/skills/python-3.svg";
+import Redis from "@/images/skills/redis.svg";
+import Rust from "@/images/skills/rust.svg";
+import Shadcn from "@/images/skills/shadcn.svg";
+import Svelte from "@/images/skills/svelte.svg";
+import Typescript from "@/images/skills/ts.svg";
+import Yarn from "@/images/skills/yarn.svg";
 
-import FadeIn, { FadeInStagger } from "./FadeIn";
+
+
 import Container from "./Container";
+import FadeIn, { FadeInStagger } from "./FadeIn";
 
 const clients = [
       ["NextJs", Nextjs],
@@ -52,13 +65,25 @@ const clients = [
       ["GitHub", Github],
       ["Shadcn", Shadcn],
       ["Pyhton", Python],
+      ["Docker", Docker],
+      ["Graphql", GraphQl],
+      ["MongoDb", MongoDb],
+      ["Firebase", Firebase],
+      ["MySql", MySql],
+      ["Redis",Redis],
+      ["Svelte", Svelte],
+      ["Typescript", Typescript],
+      ["Yarn", Yarn],
+      ["Rust", Rust],
+      ["Planetscale",Planetscale],
+      ["Pnpm",Pnpm],
 
 ];
 
-const Clients = () => {
+const Skills = () => {
       return (
-            <div className="mt-24 mx-5 rounded-3xl bg-slate-300  py-20 sm:mt-32 sm:py-32 lg:mt-56">
-                  <Container>
+            
+                  <Container className="mt-16  rounded-3xl  ">
                         <FadeIn className="flex items-center gap-x-8 rounded-4xl">
                               <h2 className="text-center text-black font-display text-2xl font-semibold tracking-wider sm:text-left">
                                     I have an experience with These Awsome Techs
@@ -83,8 +108,8 @@ const Clients = () => {
                               </ul>
                         </FadeInStagger>
                   </Container>
-            </div>
+            
       );
 };
 
-export default Clients;
+export default Skills;

@@ -1,10 +1,9 @@
 import React from "react";
-import SectionIntro from "./SectionIntro";
-import Container from "./Container";
-import FadeIn from "./FadeIn";
-import StylizedImage from "./StylizedImage";
 import imageLaptop from "../images/laptop.jpg";
+import FadeIn from "./FadeIn";
 import List, { ListItem } from "./List";
+import SectionIntro from "./SectionIntro";
+import StylizedImage from "./StylizedImage";
 
 const Services = () => {
       return (
@@ -18,10 +17,10 @@ const Services = () => {
                               Elevate Your Production and Connectivity to New Heights with My Websites!
                         </p>
                   </SectionIntro>
-                  <Container className="mt-16">
+                  <div className="mt-16">
                         <div className="lg:flex w-full lg:items-center lg:justify-end justify-between gap-6">
                               <div className="flex justify-center w-fit lg:justify-end lg:pr-12">
-                                    <FadeIn className="w-[33.75rem] flex-none lg:w-[45rem]">
+                                    <FadeIn className="w-auto flex-none lg:w-[45rem]">
                                           <StylizedImage
                                                 src={imageLaptop}
                                                 sizes="(min-width: 1024px) 41rem, 31rem"
@@ -45,7 +44,7 @@ const Services = () => {
                                     </ListItem>
                               </List>
                         </div>
-                  </Container>
+                  </div>
             </>
       );
 };

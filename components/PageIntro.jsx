@@ -1,11 +1,10 @@
-import React from "react";
-import Container from "./Container";
-import FadeIn from "./FadeIn";
 import clsx from "clsx";
+import React from "react";
+import FadeIn from "./FadeIn";
 
 const PageIntro = ({ eyebrow, title, children, centered = false }) => {
   return (
-    <Container
+    <div
       className={clsx("mt-24 sm:mt-32 lg:mt-40", centered && "text-center")}
     >
       <FadeIn>
@@ -16,7 +15,7 @@ const PageIntro = ({ eyebrow, title, children, centered = false }) => {
           <span className="sr-only"> - </span>
           <span
             className={clsx(
-              "mt-6 block max-w-5xl font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-6xl",
+              "mt-6 block max-w-5xl font-display leading-10 text-[2rem] md:text-6xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] ",
               centered && "mx-auto"
             )}
           >
@@ -25,14 +24,14 @@ const PageIntro = ({ eyebrow, title, children, centered = false }) => {
         </h1>
         <div
           className={clsx(
-            "mt-6 max-w-3xl text-xl text-neutral-600",
+            "mt-6 max-w-3xl text-xl md:text-2xl text-neutral-600",
             centered && "mx-auto"
           )}
         >
           {children}
         </div>
       </FadeIn>
-    </Container>
+    </div>
   );
 };
 

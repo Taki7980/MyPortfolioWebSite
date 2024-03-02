@@ -1,11 +1,11 @@
 import React from "react";
-import SectionIntro from "./SectionIntro";
 import Container from "./Container";
 import { GridList, GridListItem } from "./GridList";
+import SectionIntro from "./SectionIntro";
 
 const Cultures = () => {
       return (
-            <div className="mt-24 rounded-4xl mx-10 rounded-3xl bg-gradient-to-t from-[#183D3D] to-[#040D12] py-24 sm:mt-32 lg:mt-40 lg:py-32">
+            <div className="mt-24 rounded-4xl  rounded-3xl bg-gradient-to-t from-[#183D3D] to-[#040D12] py-24 sm:mt-32 lg:mt-40 lg:py-32">
                   <SectionIntro
                         eyebrow="My Roots"
                         title="I bear the burden of ordinariness."
