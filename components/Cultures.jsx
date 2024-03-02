@@ -15,7 +15,7 @@ const Cultures = () => {
                               Despite lacking an engineering background, I diligently endeavored to compensate for my deficiencies. In order to amplify my personal growth, I made a concerted effort to stay abreast of technological advancements and other developments within the realm of web development.
                         </>
                   </SectionIntro>
-                  <Container className="mt-16">
+                  <div className="mt-16">
                         <GridList>
                               <GridListItem title="Loyalty" invert>
                                     Our team has been with us since the beginning because none of them
@@ -30,7 +30,7 @@ const Cultures = () => {
                                     sure to never find out.
                               </GridListItem>
                         </GridList>
-                  </Container>
+                  </div>
             </Container>
       );
 };
