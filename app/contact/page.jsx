@@ -16,16 +16,16 @@ const ContactPage = () => {
             requestAnimationFrame(raf)
       }, [])
       return (
-            <>
+            <Container>
                   <PageIntro eyebrow="Contact us" title="Lets work together">
                         <p>{`Can't wait to Work woth You 😊`}</p>
                   </PageIntro>
-                  <Container className="mt-24 sm:mt-32 lg:mt-40">
+                  <div className="mt-24 sm:mt-32 lg:mt-40">
                         <div className="grid grid-cols-1 gap-x-8 gap-y-24 lg:grid-cols-2">
                               <ContactDetails/>
                         </div>
-                  </Container>
-            </>
+                  </div>
+            </Container>
       );
 };
 

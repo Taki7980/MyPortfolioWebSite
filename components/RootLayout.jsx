@@ -1,16 +1,16 @@
 "use client";
+import clsx from "clsx";
+import { MotionConfig, motion, useReducedMotion } from "framer-motion";
+import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useId, useRef, useState } from "react";
-import { motion, MotionConfig, useReducedMotion } from "framer-motion";
-import Container from "./Container";
-import Link from "next/link";
-import Logo from "./Logo";
 import { HiMenuAlt4 } from "react-icons/hi";
 import { IoMdClose } from "react-icons/io";
 import Button from "./Button";
-import clsx from "clsx";
-import SocialMedia from "./SocialMedia";
+import Container from "./Container";
 import Footer from "./Footer";
+import Logo from "./Logo";
+import SocialMedia from "./SocialMedia";
 
 
 const Header = ({
@@ -31,7 +31,7 @@ const Header = ({
                         </Link>
                         <div className="flex items-center gap-x-8">
                               <Button href={"/contact"} invert={invert}>
-                                    Contact us
+                                    Contact me
                               </Button>
                               <button
                                     ref={toggleRef}

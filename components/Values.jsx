@@ -1,8 +1,8 @@
 import React from "react";
-import GridPattern from "./GridPattern";
-import SectionIntro from "./SectionIntro";
 import Container from "./Container";
 import { GridList, GridListItem } from "./GridList";
+import GridPattern from "./GridPattern";
+import SectionIntro from "./SectionIntro";
 
 const Values = () => {
   return (

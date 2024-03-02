@@ -1,7 +1,6 @@
-import React from "react";
-import Container from "./Container";
-import FadeIn from "./FadeIn";
 import clsx from "clsx";
+import React from "react";
+import FadeIn from "./FadeIn";
 
 const SectionIntro = ({
   eyebrow,
@@ -12,7 +11,7 @@ const SectionIntro = ({
   ...props
 }) => {
   return (
-    <Container {...props}>
+    <div {...props}>
       <FadeIn className="max-w-4xl">
         <h2>
           {eyebrow && (
@@ -51,7 +50,7 @@ const SectionIntro = ({
           </div>
         )}
       </FadeIn>
-    </Container>
+    </div>
   );
 };
 

@@ -3,9 +3,9 @@ import React from "react";
 import Container from "./Container";
 import FadeIn from "./FadeIn";
 
-import Logo from "./Logo";
-import Link from "next/link";
 import { cn } from "@/lib/utils";
+import Link from "next/link";
+import Logo from "./Logo";
 
 
 
