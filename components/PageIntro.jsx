@@ -24,7 +24,7 @@ const PageIntro = ({ eyebrow, title, children, centered = false }) => {
         </h1>
         <div
           className={clsx(
-            "mt-6 max-w-3xl text-xl md:text-2xl text-neutral-600",
+            "mt-6 max-w-5xl text-xl md:text-2xl text-neutral-600",
             centered && "mx-auto"
           )}
         >
