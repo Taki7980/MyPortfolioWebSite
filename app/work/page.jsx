@@ -8,8 +8,8 @@ const WorkPage = () => {
 	return (
 		<Container>
 			<PageIntro
-				eyebrow="Works that i have done"
-				title="Proven solutions for real-world problems."
+				eyebrow="With the Power of these awsome morden technologies i have created some awesome projects"
+				title="The projects I have completed 🌟"
 			>
 				<BentoGridProjects/>
 			</PageIntro>

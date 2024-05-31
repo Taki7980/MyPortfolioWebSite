@@ -61,9 +61,9 @@ const items = [
             link:"/",
 	},
 	{
-		title: "The Spirit of Adventure",
-		description: "Embark on exciting journeys and thrilling discoveries.",
-		header: <Skeleton />,
-            link:"/",
+		title: "Weblifi design",
+		description: "With Weblifi You can make your Dream a Reality",
+		header: "p4.png",
+            link:"https://weblifi.vercel.app/",
 	},
 ];
