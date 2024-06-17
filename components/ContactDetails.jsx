@@ -5,6 +5,7 @@ import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import TextInput from "./TextInput";
 import { Textarea } from "./ui/textarea";
+import { Input } from "./ui/input";
 
 export default function ContactForm() {
 	const [error, setError] = useState(false);
@@ -54,11 +55,12 @@ export default function ContactForm() {
 						label="Email"
 						autoComplete="email"
 					/>
+					
 					<Textarea
 						placeholder="Message"
 						name="message"
 						label="Message"
-                                    className="text-black border-4 text-xl"
+						className="text-black border-4 text-xl"
 					/>
 				</div>
 				<button

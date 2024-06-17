@@ -37,33 +37,34 @@ const items = [
 		description:
 			"Powered by the AI and Nextjs an almighty image manipulator",
 		header: "/p1.png",
-            link:"https://imaginary-gules.vercel.app/",
+		link: "https://imaginary-gules.vercel.app/",
+	},
+	{
+		title: "CoolCrawler",
+		description:
+			"Track your favorite items and their prices with CoolCrawler",
+		header: "/p5.png",
+		link: "https://cool-crawler-5k1v.vercel.app/",
 	},
 
-	{
-		title: "AirBnB clone",
-		description: "Created using the power of Nextjs14 for lighning fast performance",
-		header: "/p2.png",
-            link:"https://bnbmy.vercel.app/",
-	},
 	{
 		title: "Web Japan Landing page",
-		description:
-			"Recreated the landing page of Japan foregin ministry",
+		description: "Recreated the landing page of Japan foregin ministry",
 		header: "/p3.png",
-            link:"https://nihon-app.vercel.app/",
+		link: "https://nihon-app.vercel.app/",
+	},
+	{
+		title: "AirBnB clone",
+		description:
+			"Created using the power of Nextjs14 for lighning fast performance",
+		header: "/p2.png",
+		link: "https://bnbmy.vercel.app/",
 	},
 
-	{
-		title: "The Joy of Creation",
-		description: "Experience the thrill of bringing ideas to life.",
-		header: <Skeleton />,
-            link:"/",
-	},
 	{
 		title: "Weblifi design",
 		description: "With Weblifi You can make your Dream a Reality",
-		header: "p4.png",
-            link:"https://weblifi.vercel.app/",
+		header: "/p4.png",
+		link: "https://weblifi.vercel.app/",
 	},
 ];
