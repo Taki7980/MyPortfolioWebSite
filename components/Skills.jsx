@@ -77,8 +77,8 @@ const clients = [
 
 const Skills = () => {
 	return (
-		<Container className="mt-16 rounded-3xl  ">
-			<FadeIn className="flex items-center gap-x-8 rounded-4xl">
+		<Container className="mt-16 rounded-3xl  w-full">
+			<FadeIn className="flex items-center justify-center gap-x-8 rounded-4xl w-full">
 				<h2 className="text-center text-black font-display text-2xl font-semibold tracking-wider sm:text-left">
 					I have an experience with These Awsome Techs
 				</h2>
@@ -87,10 +87,13 @@ const Skills = () => {
 			<FadeInStagger faster>
 				<ul
 					role="list"
-					className="mt-10 grid grid-cols-2 gap-x-8 gap-y-10 lg:grid-cols-4"
+					className="mt-10 grid grid-cols-2 gap-x-8 gap-y-10 lg:grid-cols-4 w-full"
 				>
 					{clients.map(([client, logo]) => (
-						<li key={client} className="flex items-center justify-center">
+						<li
+							key={client}
+							className="flex items-center justify-center"
+						>
 							<FadeIn className="flex items-center justify-center">
 								<div className=" flex flex-col gap-2 items-center w-full h-fit">
 									<Image
