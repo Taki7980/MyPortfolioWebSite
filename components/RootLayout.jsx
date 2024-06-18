@@ -40,7 +40,7 @@ const Header = ({
                                     aria-expanded={expanded.toString()}
                                     aria-controls={panelId}
                                     className={clsx(
-                                          "group -m-2.5 rounded-full p-2.5 transition",
+                                          "group -m-2.5 rounded-full pr-3 md:p-2.5 transition",
                                           invert ? "hover:bg-white/10" : "hover:bg-neutral-950/10"
                                     )}
                                     aria-label="Toggle navigation"
