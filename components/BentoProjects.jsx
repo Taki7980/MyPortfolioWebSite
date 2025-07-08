@@ -46,25 +46,11 @@ const items = [
 		header: "/p5.png",
 		link: "https://cool-crawler-5k1v.vercel.app/",
 	},
-
 	{
-		title: "Web Japan Landing page",
-		description: "Recreated the landing page of Japan foregin ministry",
-		header: "/p3.png",
-		link: "https://nihon-app.vercel.app/",
-	},
-	{
-		title: "AirBnB clone",
+		title: "Ai chatbot - All in one",
 		description:
-			"Created using the power of Nextjs14 for lighning fast performance",
-		header: "/p2.png",
-		link: "https://bnbmy.vercel.app/",
-	},
-
-	{
-		title: "Weblifi design",
-		description: "With Weblifi You can make your Dream a Reality",
-		header: "/p4.png",
-		link: "https://weblifi.vercel.app/",
+			"Built intelligent chatbot application with natural language processing capabilities and real-time messaging",
+		header: "/p3.png",
+		link: "https://aichatbot-three-hazel.vercel.app/",
 	},
 ];
